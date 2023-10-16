@@ -7,7 +7,7 @@ const Dashbaord = () => {
   return (
     
     <div className='flex flex-col md:flex-row'>
-      <div className="hidden md:block"> 
+      <div className="md:block"> 
         <SideTab />
       </div>
        
