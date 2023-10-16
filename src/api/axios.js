@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-    baseURL: "http://localhost:8080/apiv1/"
+    baseURL: "https://stgei.onrender.com/apiv1/"
 })
