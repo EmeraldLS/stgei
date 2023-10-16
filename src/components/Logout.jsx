@@ -8,7 +8,7 @@ const Logout = () => {
     const {setAuth} = useContext(AuthContext)
     const ProcessLogout = async () => {
         try{
-            const response = await axios.put("/secured/logout", {}, {
+            await axios.put("/secured/logout", {}, {
                 withCredentials: true
             })
             localStorage.removeItem("user")

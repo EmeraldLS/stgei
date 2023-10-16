@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
 import axios from '../api/axios'
-import CustomerCard from './CustomerCard'
+// import CustomerCard from './CustomerCard'
 
 const CustomerInAMonth = () => {
     const [month, setMonth] = useState("_")
     const[customers, setCustomers]= useState([])
-    const [loading, setLoading] = useState(false)
-    const [err, setErr] = useState("")
+    // const [loading, setLoading] = useState(false)
+    // const [err, setErr] = useState("")
 
-    const handleMonth = (e) => {
-        e.preventDefault()
-        setMonth(e.target.value)
-    }
+    // const handleMonth = (e) => {
+    //     e.preventDefault()
+    //     setMonth(e.target.value)
+    // }
 
     const getCustomers = async (e) => {
         setMonth(e.target.value)
